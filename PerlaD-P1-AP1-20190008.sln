@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perla-P1-AP1-20190008", "Perla-P1-AP1-20190008.csproj", "{A9FBB071-25DD-41E9-B61E-2C610061F850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9FBB071-25DD-41E9-B61E-2C610061F850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FBB071-25DD-41E9-B61E-2C610061F850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FBB071-25DD-41E9-B61E-2C610061F850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FBB071-25DD-41E9-B61E-2C610061F850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60EF57F2-1EEE-412E-B26E-95AAEC9855AA}
+	EndGlobalSection
+EndGlobal
