@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PerlaD_P1_AP1_20190008"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="250" Width="400">
     <Grid>
+        <StackPanel>
+            <StackPanel Orientation = "Horizontal">
+                <Menu Height="20">
+                    <MenuItem Header="Registros"  >
+                        <MenuItem x:Name="rAportes" Header="Registro de Aportes" Click="rAportes_Click"/>
+                    </MenuItem>
+                </Menu>
 
+                <Menu Height="20">
+                    <MenuItem Header="Consultas">
+                        <MenuItem x:Name="cAportes" Header="Consulta de Aportes" Click="cAportes_Click"/>
+                    </MenuItem>
+                </Menu>
+
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
