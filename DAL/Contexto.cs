@@ -13,7 +13,7 @@ namespace PerlaD_P1_AP1_20190008.DAL
         public DbSet<Aportes> Aportes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source=DATA\DBP1-PerlaD.-20190008.db");
+            optionsBuilder.UseSqlite(@"Data Source=DATA\DBPerlaD_P1_AP1_20190008.db");
         }
     }
 }

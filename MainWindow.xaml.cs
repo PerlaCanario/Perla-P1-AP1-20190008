@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PerlaD_P1_AP1_20190008.UI.Consultas;
+using PerlaD_P1_AP1_20190008.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,18 @@ namespace PerlaD_P1_AP1_20190008
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void rAportes_Click(object sender, RoutedEventArgs e)
+        {
+            rAportes aportes = new rAportes();
+            aportes.Show();
+        }
+
+        private void cAportes_Click(object sender, RoutedEventArgs e)
+        {
+            cAportes consulta = new cAportes();
+            consulta.Show();
         }
     }
 }

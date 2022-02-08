@@ -9,7 +9,7 @@ using PerlaD_P1_AP1_20190008.DAL;
 namespace PerlaD_P1_AP1_20190008.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220207214028_Inicial")]
+    [Migration("20220208000414_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
