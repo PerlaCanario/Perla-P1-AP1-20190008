@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PerlaD_P1_AP1_20190008.UI.Registros"
         mc:Ignorable="d"
-        Title="Registros de aportes" Height="350" Width="400">
+        Title="Registros de aportes" Height="359" Width="400">
     <Grid>
         <StackPanel Margin="20,0,0,131">
             <Label Content="Aportes id:" Height="30" />
             <StackPanel Height="19" Orientation="Horizontal" Width="397">
-                <TextBox HorizontalAlignment="Left" x:Name="AportesIdTextBox"  Width="120" Text="{Binding AportesId, StringFormat=N2}"/>
+                <TextBox HorizontalAlignment="Left" x:Name="AportesIdTextBox"  Width="120" Text="{Binding AportesId}"/>
                 <Button x:Name="BuscarButton" FlowDirection="LeftToRight" Click="BuscarButton_Click" Height="20" Width="75">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Resources/buscar.png" Height="10" Width="22"/>
@@ -28,8 +28,8 @@
             <TextBox HorizontalAlignment="Left" x:Name="PersonaTextBox"  Width="120" Text="{Binding Persona, StringFormat=N2}"/>
         </StackPanel>
         <StackPanel Margin="20,150,0,63">
-            <Label Content="Concepto:" Height="30"/>
-            <TextBox HorizontalAlignment="Left" x:Name="ConceptoTextBox"  Width="120" Text="{Binding Concepto, StringFormat=N2}"/>
+            <Label Content="Descripcion:" Height="30"/>
+            <TextBox HorizontalAlignment="Left" x:Name="DescripcionTextBox"  Width="120" Text="{Binding Descripcion, StringFormat=N2}"/>
         </StackPanel>
         <StackPanel Margin="20,200,0,63">
             <Label Content="Monto:" Height="30"/>

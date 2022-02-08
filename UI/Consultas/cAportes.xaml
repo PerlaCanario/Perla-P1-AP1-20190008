@@ -19,7 +19,7 @@
             <Label Content="Filtro" Width="41" HorizontalAlignment="Left" Height="24"/>
             <ComboBox x:Name="FiltroComBox" Width="142" Height="25" HorizontalAlignment="Left" Margin="0,5,0,0">
                 <ComboBoxItem Content="Persona"/>
-                <ComboBoxItem Content="Concepto"/>
+                <ComboBoxItem Content="Descripcion"/>
             </ComboBox>
             <Button x:Name="BuscarButton" Margin="0,23,0,0" Width="71" HorizontalAlignment="Center" Height="33" Click="BuscarButton_Click">
                 <StackPanel Orientation="Horizontal">
@@ -40,7 +40,7 @@
                 <DataGridTextColumn Header="Aportes id" Binding="{Binding AportesId}"/>
                 <DataGridTextColumn Header="Fecha del aporte" Binding="{Binding Fecha}"/>
                 <DataGridTextColumn Header="Persona" Binding="{Binding Persona }"/>
-                <DataGridTextColumn Header="Concepto" Binding="{Binding Concepto}"/>
+                <DataGridTextColumn Header="Concepto" Binding="{Binding Descripcion}"/>
                 <DataGridTextColumn Header="Monto" Binding="{Binding Monto}"/>
             </DataGrid.Columns>
         </DataGrid>
